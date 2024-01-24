@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:paddingTop="30dp">
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:hint="Titulo"
+            android:layout_height="wrap_content"></com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputEditText
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:hint="Descripción"
+        android:layout_height="wrap_content"></com.google.android.material.textfield.TextInputEditText>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
