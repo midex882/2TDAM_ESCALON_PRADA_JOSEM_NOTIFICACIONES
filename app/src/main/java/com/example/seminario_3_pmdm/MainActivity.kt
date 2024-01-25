@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button)
         val button2 = findViewById<Button>(R.id.button2)
+        val button3 = findViewById<Button>(R.id.button3)
 
         button.setOnClickListener {
             var intent = Intent(this, Ejercicio1::class.java)
@@ -21,6 +22,11 @@ class MainActivity : AppCompatActivity() {
 
         button2.setOnClickListener {
             var intent = Intent(this, Ejercicio2::class.java)
+            startActivity(intent)
+        }
+
+        button3.setOnClickListener {
+            var intent = Intent(this, Ejercicio3::class.java)
             startActivity(intent)
         }
 

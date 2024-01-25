@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/icon_arrays.xml -->
+
+<resources>
+    <string-array name="icon_options">
+        <item>icon1</item>
+        <item>icon2</item>
+        <item>icon3</item>
+    </string-array>
+</resources>

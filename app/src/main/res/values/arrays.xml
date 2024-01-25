@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/arrays.xml -->
+
+<resources>
+    <string-array name="planet_options">
+        <item>venus</item>
+        <item>mars</item>
+        <item>earth</item>
+    </string-array>
+</resources>
